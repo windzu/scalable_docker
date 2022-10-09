@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  scalabel:
+    image: scalabel/www
+    container_name: scalabel
+    # stdin_open: true
+    # tty: true
+    ports:
+      - 8686:8686
+      - 6379:6379
+    volumes:
+      - ./local_config.yml:/opt/scalabel/local-data/scalabel/config.yml # config file
+    command:
+      - /bin/bash
+      - -c
+      - |
+        node app/dist/main.js --config /opt/scalabel/local-data/scalabel/config.yml \
+        --max-old-space-size=8192
