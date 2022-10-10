@@ -21,12 +21,12 @@ docker-compose up -d
 
 ## Config
 
-Scalabel支持标注多种数据类型以及多种标注方式
-数据类型包括
-- Image
-- Video Tracking
-- Point Cloud
-- Point Cloud Tracking
+Scalabel支持标注多种数据类型(标注类型)以及多种标注方式
+数据类型包括(标注类型)
+- Image : 对图像进行标注
+- Video Tracking : 对图像进行标注tracking标注
+- Point Cloud : 对点云进行标注
+- Point Cloud Tracking : 对点云进行标注tracking标注
 
 Label类型包括
 - Tagging
@@ -35,7 +35,7 @@ Label类型包括
 - Polyline
 - 3D Bounding Box
 
-此外Scalabel还提供了很高的标注自由度和快捷标注方式，启用这些功能需要进行正确的配置，下面详细介绍如何进行配置，这也是官方文档中漏掉的部分
+此外Scalabel还提供了很高的标注自由度和快捷标注方式，启用这些功能需要进行正确的配置，下面详细介绍如何进行配置，**这也是官方文档中漏掉的部分**
 
 ### 数据源配置
 
@@ -59,11 +59,11 @@ scalabel支持多种数据源，包含
 - label的类别信息
 - label的属性信息
 
-这些配置文件的提供，官方支持两种方式，一种是配置文件单独提供，一种是将所有配置写在一起，下面介绍单独配置的这种方式(这样更灵活)
+这些配置文件的提供，官方支持两种方式，一种是配置文件单独提供，一种是将所有配置写在一起，下面介绍**配置文件单独提供方式**(这样更灵活)
 
 **Item 配置**
 
-该配置用于设置待标注数据的路径，内容是所有待标注文件的url路径列表,支持json或yaml格式，格式可参考本工程下item目录中的文件
+与一般标注软件不同，scalable不是通过选择文件夹的方式来载入数据，而是通过导入一个配置文件，其内容是所有待标注文件的url路径列表,支持json或yaml格式，格式可参考本工程下item目录中的文件
 - image_list.json : 图片文件url列表的json格式
 - image_list.yml : 图片文件url列表的yaml格式
 - point_cloud_list.yml : 点云文件url列表的yaml格式
