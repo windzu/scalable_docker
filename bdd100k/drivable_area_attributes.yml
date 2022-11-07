@@ -1,0 +1,14 @@
+# areaType 内容与 drivable_area_categories内容一致,故在此省略
+# -
+#   name: areaType
+#   type: list
+#   values:
+#     - direct
+#     - alternative
+#     - background
+#   tagPrefix: ""
+#   tagSuffixes:
+#     - d
+#     - a
+#     - b
+#   tag: t

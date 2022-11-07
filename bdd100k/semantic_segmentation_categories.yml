@@ -1,0 +1,20 @@
+- name: road
+- name: sidewalk
+- name: building
+- name: wall
+- name: fence
+- name: pole
+- name: traffic light
+- name: traffic sign
+- name: vegetation
+- name: terrain
+- name: sky
+- name: person
+- name: rider
+- name: car
+- name: truck
+- name: bus
+- name: train
+- name: motorcycle
+- name: bicycle
+- name: unknown

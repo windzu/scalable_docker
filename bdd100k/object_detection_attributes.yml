@@ -1,0 +1,30 @@
+-
+  name: occluded
+  type: switch
+  tag: o
+-
+  name: truncated
+  type: switch
+  tag: t
+
+-
+  name: difficult
+  type: switch
+  tag: d
+
+# 不需要颜色属性
+# -
+#   name: trafficLightColor
+#   type: list
+#   values:
+#     - red
+#     - green
+#     - yellow
+#     - none
+#   tagPrefix: ""
+#   tagSuffixes:
+#     - r
+#     - g
+#     - y
+#     - n
+#   tag: t

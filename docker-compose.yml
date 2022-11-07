@@ -10,6 +10,8 @@ services:
       - 6379:6379
     volumes:
       - ./local_config.yml:/opt/scalabel/local-data/scalabel/config.yml # config file
+      - ./local:/opt/scalabel/local-data/local
+      - $HOME/example/imgs_00:/opt/scalabel/local-data/items/imgs_00 # 文件挂载
     command:
       - /bin/bash
       - -c

@@ -1,0 +1,41 @@
+- name: unlabeled
+- name: dynamic
+- name: ego vehicle
+- name: ground
+- name: static
+- name: parking
+- name: rail track
+- name: road
+- name: sidewalk
+- name: bridge
+- name: building
+- name: fence
+- name: garage
+- name: guard rail
+- name: tunnel
+- name: wall
+- name: banner
+- name: billboard
+- name: lane divider
+- name: parking sign
+- name: pole
+- name: polegroup
+- name: street light
+- name: traffic cone
+- name: traffic device
+- name: traffic light
+- name: traffic sign
+- name: traffic sign frame
+- name: terrain
+- name: vegetation
+- name: sky
+- name: person
+- name: rider
+- name: bicycle
+- name: bus
+- name: car
+- name: caravan
+- name: motorcycle
+- name: trailer
+- name: train
+- name: truck

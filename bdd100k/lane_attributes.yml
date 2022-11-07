@@ -1,0 +1,44 @@
+-
+  name: laneDirection
+  type: list
+  values:
+    - parallel
+    - vertical
+    - background
+  tagPrefix: d
+  tagSuffixes:
+    - p
+    - v
+    - b
+
+-
+  name: laneStyle
+  type: list
+  values:
+    - solid
+    - dashed
+    - background
+  tagPrefix: s
+  tagSuffixes:
+    - s
+    - d
+    - b
+
+
+# laneTypes 内容与 lane_categories内容一致,故在此省略
+# -
+#   name: laneTypes
+#   type: list
+#   values:
+#     - crosswalk
+#     - double other
+#     - double white
+#     - double yellow
+#     - road curb
+#     - single other
+#     - single white
+#     - single yellow
+#     - background
+#   tagPrefix: t
+#   tagSuffixes: ''
+#   tag: t
